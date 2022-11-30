@@ -1,0 +1,54 @@
+.sideBar{
+    flex:3;
+    height: calc(100vh-50px);
+    
+}
+
+
+.sideBarWrapper{
+    padding: 20px;
+    overflow-y:scroll;
+    height:100vh;
+    position: sticky;
+    top: 50px;
+}
+
+.sideBar::-webkit-scrollbar{
+    width: 15px;
+}
+
+
+.sideBarList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sideBarListItem{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sideBarIcon{
+    margin: 15px;
+}
+
+.sideBarButton{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.sideBarHr{
+    margin:20px 0;
+}
+
+.sideBarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
